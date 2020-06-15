@@ -3,6 +3,9 @@
 # Add steps that build, test, save build artifacts, deploy, and more:
 # https://aka.ms/yaml
 steps:
+- script: |
+    ls -l
+
 - task: Docker@0
   displayName: 'Run Jekyll'
   inputs:
