@@ -3,8 +3,6 @@
 # Add steps that build, test, save build artifacts, deploy, and more:
 # https://aka.ms/yaml
 
-job: 'build jekyll'
-
 trigger:
 - master
 
