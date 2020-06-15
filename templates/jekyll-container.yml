@@ -4,7 +4,9 @@
 # https://aka.ms/yaml
 steps:
 - script: |
-    ls -l
+    mkdir _site
+    touch Gemfile.lock
+    chmod a+w Gemfile.lock
 
 - task: Docker@0
   displayName: 'Run Jekyll'
